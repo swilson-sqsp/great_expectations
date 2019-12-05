@@ -64,7 +64,7 @@ Check out [The Era of DIY Data Validation is Over]() for more details.
 <!--
 <<animated gif showing slack message, plus click through to validation results, a la: https://docs.google.com/presentation/d/1ZqFXsoOyW2KIkMBNij3c7KOM0RhajhAHKesdCL_BKHw/edit#slide=id.g6b0ff79464_0_183>>
 -->
-
+![ooooo ahhhh](https://github.com/great-expectations/great_expectations/raw/develop/readme_assets/datadocs.gif)
 **Tests are docs and docs are tests**
 
 Many data teams struggle to maintain up-to-date data documentation. Great Expectations solves this problem by rendering Expectations directly into clean, human-readable documentation. 
@@ -78,6 +78,7 @@ Since docs are rendered from tests, and tests are run against new data as it arr
 
 Check out [Down with Documentation Rot!]() for more details.
 -->
+![Your tests are your docs and your docs are your tests](https://github.com/great-expectations/great_expectations/raw/develop/readme_assets/test-are-docs.jpg)
 
 **Automated data profiling**
 
