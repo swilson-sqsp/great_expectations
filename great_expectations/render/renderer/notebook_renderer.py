@@ -159,6 +159,9 @@ context.open_data_docs()"""
         if not isinstance(batch_kwargs, dict):
             raise RuntimeWarning("render must be given a dictionary of batch_kwargs.")
 
+        if batch_kwargs == {}:
+            batch_kwargs = {"path": "data/npi_2.csv"}
+
         self.notebook = nbformat.v4.new_notebook()
 
         data_asset_name = suite.data_asset_name
