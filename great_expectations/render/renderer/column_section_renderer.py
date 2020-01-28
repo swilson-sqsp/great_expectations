@@ -366,7 +366,10 @@ class ProfilingResultsColumnSectionRenderer(ColumnSectionRenderer):
 
         if set_evr and "partial_unexpected_counts" in set_evr["result"]:
             partial_unexpected_counts = set_evr["result"]["partial_unexpected_counts"]
-            values = [str(v["value"]) for v in partial_unexpected_counts]
+            try:
+                values = [str(v["value"]) for v in partial_unexpected_counts]
+            except TypeError:
+                values = []
         elif set_evr and "partial_unexpected_list" in set_evr["result"]:
             values = [str(item) for item in set_evr["result"]["partial_unexpected_list"]]
         else:
